@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_basic_social_links",
+  "info": {
+    "displayName": "Social Link",
+    "description": "Represents a social media link with a platform and URL."
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "YouTube",
+        "LinkedIn",
+        "GitHub"
+      ]
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

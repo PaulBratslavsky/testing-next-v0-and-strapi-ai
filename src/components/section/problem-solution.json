@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_problem_solutions",
+  "info": {
+    "displayName": "Problem Solution",
+    "description": "Represents the problem-solution section of the landing page, defined in components/blocks/problem-solution.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pains": {
+      "type": "component",
+      "component": "basic.string-item",
+      "repeatable": true
+    },
+    "solutions": {
+      "type": "component",
+      "component": "basic.string-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

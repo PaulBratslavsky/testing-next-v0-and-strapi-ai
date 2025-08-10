@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_section_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Represents the hero section of the landing page, defined in components/blocks/hero.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "subhead": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "component": "basic.string-item",
+      "repeatable": true
+    },
+    "showForm": {
+      "type": "boolean"
+    },
+    "secondaryCta": {
+      "type": "component",
+      "component": "basic.link",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

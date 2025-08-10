@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": "Represents the footer section of the landing page, defined in components/blocks/footer.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "basic.link",
+      "repeatable": true
+    },
+    "social": {
+      "type": "component",
+      "component": "basic.social-link",
+      "repeatable": true
+    },
+    "copyright": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

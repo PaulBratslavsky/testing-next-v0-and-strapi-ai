@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_basic_string_items",
+  "info": {
+    "displayName": "String Item",
+    "description": "A simple string item used in lists like bullets, pains, and solutions."
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

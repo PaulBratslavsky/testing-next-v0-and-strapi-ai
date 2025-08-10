@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basic_links",
+  "info": {
+    "displayName": "Link",
+    "description": "A reusable component for links with a label and a URL."
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

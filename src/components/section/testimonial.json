@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": "Represents the testimonials section of the landing page, defined in components/blocks/testimonials.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "basic.testimonial-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

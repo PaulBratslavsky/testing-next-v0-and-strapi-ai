@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_ctas",
+  "info": {
+    "displayName": "Cta",
+    "description": "Represents the CTA band section of the landing page, defined in components/blocks/cta-band.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subhead": {
+      "type": "string"
+    },
+    "showForm": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

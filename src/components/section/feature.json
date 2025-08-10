@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_features",
+  "info": {
+    "displayName": "Feature",
+    "description": "Represents the features section of the landing page, defined in components/blocks/features.tsx."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "basic.feature-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
